@@ -14,5 +14,5 @@ let personas = [
 ];
 
 module.exports = {
-    personas : personas
+    personas
 };
