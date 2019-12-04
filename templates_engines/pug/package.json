@@ -1,0 +1,25 @@
+{
+  "name": "pug",
+  "version": "1.0.0",
+  "description": "This project shows how to use the template engine PUG",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesusfer2575/NodejsWeb.git"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "nodejs",
+    "express"
+  ],
+  "author": "Ad Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesusfer2575/NodejsWeb/issues"
+  },
+  "homepage": "https://github.com/Jesusfer2575/NodejsWeb#readme"
+}
