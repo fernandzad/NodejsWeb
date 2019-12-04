@@ -1,0 +1,14 @@
+{
+  "name": "hbs",
+  "version": "1.0.0",
+  "description": "This app shows the functionallity of hbs template engine and it was optimized using dependencies inyection",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ad Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
