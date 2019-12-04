@@ -40,3 +40,14 @@ describe('Unit Test a Operaciones', () => {
     //     expect(obj_operaciones.validarNoCero(10)).toBe(true);
     // });
 });
+
+describe('UT a Algoritmos', () => {
+    test('Búsqueda binaria: número encontrado', () => {
+        const busquedaBinaria = require('../models/arreglos').BusquedaBinaria;
+        expect(busquedaBinaria(3)).toBe(true);
+    });
+    test('Búsqueda binaria: número NO encontrado', () => {
+        const busquedaBinaria = require('../models/arreglos').BusquedaBinaria;
+        expect(busquedaBinaria(87)).toBe(false);
+    });
+});
