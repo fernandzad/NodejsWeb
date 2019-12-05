@@ -14,3 +14,4 @@ let initial = {
 };
 
 require('./controllers/routes')(app, initial);
+module.exports = app;

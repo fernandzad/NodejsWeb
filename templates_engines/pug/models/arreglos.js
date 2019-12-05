@@ -1,12 +1,14 @@
 //let nombres = ['Samantha', 'Adrián', 'Maria', 'Teresa'];
-let numeros = [6,3,1,88,4,9,11,17,2];
-let tamanio = numeros.length;
-let fin = tamanio - 1;
+let tamanio = 0;
+let fin = 0;
 let inicio = 0, mitad = 0;
-numeros.sort();
 
-let BusquedaBinaria = (elemento) => {
-    
+let BusquedaBinaria = (elemento, numeros) => {
+    tamanio = numeros.length;
+    fin = tamanio - 1;
+    inicio = 0, mitad = 0;
+    numeros.sort();
+
     while(inicio <= fin){
         mitad = Math.floor( (inicio + fin) /2 );
         if(numeros[mitad] == elemento)

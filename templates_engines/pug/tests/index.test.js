@@ -1,5 +1,5 @@
 
-describe('Unit Test a Objeto Persona', () => {
+describe('UT a Objeto Persona', () => {
     const obj_personas = require('../models/persona').personas;
     const tpersona = [{ id : 1, nombre : 'Adrian' }, {id : 2, nombre : 'Daniel'}, {id : 3, nombre : 'Elena'}];
     const tpersona2 = { id: 1, nombre : 'GuideLine'};
@@ -16,7 +16,7 @@ describe('Unit Test a Objeto Persona', () => {
     });
 });
 
-describe('Unit Test a Operaciones', () => {
+describe('UT a Operaciones', () => {
     const obj_operaciones = require('../models/operaciones').aritmetica;
     
     test('Testearemos operación suma', () => {
@@ -42,12 +42,15 @@ describe('Unit Test a Operaciones', () => {
 });
 
 describe('UT a Algoritmos', () => {
-    test('Búsqueda binaria: número encontrado', () => {
+    let numeros = [6,3,1,88,4,9,11,17,2];
+    test('Búsqueda binaria: número encontrado', async (done) => {
         const busquedaBinaria = require('../models/arreglos').BusquedaBinaria;
-        expect(busquedaBinaria(3)).toBe(true);
+        expect(busquedaBinaria(3, numeros)).toBe(true);
+        done();
     });
     test('Búsqueda binaria: número NO encontrado', () => {
         const busquedaBinaria = require('../models/arreglos').BusquedaBinaria;
-        expect(busquedaBinaria(87)).toBe(false);
+        expect(busquedaBinaria(87, numeros)).toBe(false);
     });
+    
 });
