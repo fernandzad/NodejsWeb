@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Jesusfer2575/NodejsWeb#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hbs": "^4.0.6",
     "jest": "^24.9.0",
     "pug": "^2.0.4"
